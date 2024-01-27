@@ -1,4 +1,4 @@
-# Cell Quality Metric Design and Evaluation - Decision Making
+# Phone Quality Metric Design and Evaluation - Decision Making
 
 <div align="center">
   <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/Tesla_logo.png" width="40%">
