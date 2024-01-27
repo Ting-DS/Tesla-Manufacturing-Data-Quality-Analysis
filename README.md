@@ -22,9 +22,9 @@ Note: All parts undergo inspection in all three zones. However, different phone 
 
 ## Questions
 
-### 1. Define key quantitative metrics to compare different phone groups and provide reasons specifically
-### 2. Determine which phone group has the highest quality and provide recommendation supported by data visualization and narratives.
-### 3. Specify all assumptions while answering the above two questions
+#### 1. Define key quantitative metrics to compare different phone groups and provide reasons specifically
+#### 2. Determine which phone group has the highest quality and provide recommendation supported by data visualization and narratives.
+#### 3. Specify all assumptions while answering the above two questions
 
 
 
