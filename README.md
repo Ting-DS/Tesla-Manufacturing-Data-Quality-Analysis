@@ -32,18 +32,21 @@ Note: All parts undergo inspection in all three zones. However, different phone 
   <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/data structure.png" width="60%">
  </div>
  
- For each phone class (A/B/C/D/E) seperately:
- - Check total number of parts inspected, to see if there is an imbalance.
-   Since total number of parts inspected is similar among phone group, therefore we can use the pass ratio/proportion to compare different phone groups, making it easier to identify patterns or differences.
+ For each phone group (A/B/C/D/E) seperately:
+ - Check total number of parts inspected, to see if there is an imbalance: 
  - Check the distribution of number of parts that passed each criteria (A/B/C) and total number of parts inspected
 
-#### Metric Design
+#### Metric Design & ANOVA test
 
-For each phone class (A/B/C/D/E) seperately:
-   - [AVG pass rates of each criteria] = (# of passed parts of each criteria) / (total # of parts inspected)
-   - [Overall criteria pass rate] = AVG pass rates of all 3 criteria
+Since total number of parts inspected is similar among different phone groups, therefore we can use the pass ratio/proportion to compare different phone groups, making it easier to identify patterns or differences.
 
+Since all parts undergo inspection in all three criteria, which means the part that undergo all three criteria are the same. Therefore, there is no bias towards specific criteria when we calculate the overall pass ratio by averaging the 3 pass ratios of each criterion.
 
+For each phone group (A/B/C/D/E) seperately:
+   - [AVG pass ratios of each criteria] = (# of passed parts of each criteria) / (total # of parts inspected) : 3 ratios for each criteria (A/B/C)
+   - [Overall criteria pass ratios] = AVG pass rates of all 3 criteria
+
+The one-way ANOVA test shows that there is no significant difference of each metric among different phone groups.
 
 
 
