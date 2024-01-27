@@ -31,8 +31,11 @@ Note: All parts undergo inspection in all three zones. However, different phone 
  <div align="center">
   <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/data structure.png" width="60%">
  </div>
- - Check total number of parts inspected for each phone group, to see if there is an imbalance.
- - Check the distribution of number of parts that passed each criteria (A/B/C) and total number of parts inspected for different phone group
+ 
+ For each phone class (A/B/C/D/E) seperately:
+ - Check total number of parts inspected, to see if there is an imbalance.
+   Since total number of parts inspected is similar among phone group, therefore we can use the pass ratio/proportion to compare different phone groups, making it easier to identify patterns or differences.
+ - Check the distribution of number of parts that passed each criteria (A/B/C) and total number of parts inspected
 
 #### Metric Design
 
