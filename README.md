@@ -16,7 +16,7 @@ According to the results of three quality inspection areas for phone components,
  - phoneID: unique identifier of product
  - criteria A/B/C: number of parts that passed a certain criteria inspection (i.e., functioning LED screen)
  - TotalPartsInspected: total number of parts that underwent all three inspection zones
- - classification: product classification/group (letter classifications are not ordered in any way)
+ - classification (A/B/C/D/E): product classification/group (letter classifications are not ordered in any way)
 
 Note: All parts undergo inspection in all three zones. However, different phone variants (pro vs regular versions) will have varying number of parts inspected.
 
