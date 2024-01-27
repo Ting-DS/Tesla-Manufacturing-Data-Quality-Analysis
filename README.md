@@ -1,4 +1,4 @@
-# Cell Quality Metric Design and Evaluation
+# Cell Quality Metric Design and Evaluation - Decision Making
 
 <div align="center">
   <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/Tesla_logo.png" width="40%">
@@ -19,5 +19,9 @@ According to the results of three quality inspection areas for phone components,
  - classification: product classification/group (letter classifications are not ordered in any way)
 
 Note: All parts undergo inspection in all three zones. However, different phone variants (pro vs regular versions) will have varying number of parts inspected.
+
+## Questions
+
+
 
 
