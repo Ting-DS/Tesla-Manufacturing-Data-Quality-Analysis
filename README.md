@@ -33,7 +33,12 @@ Note: All parts undergo inspection in all three zones. However, different phone 
  </div>
  - Check total number of parts inspected for each phone group, to see if there is an imbalance.
  - Check the distribution of number of parts that passed each criteria (A/B/C) and total number of parts inspected for different phone group
+
 #### Metric Design
+
+For each phone class (A/B/C/D/E) seperately:
+   - [AVG pass rates of each criteria] = (# of passed parts of each criteria) / (total # of parts inspected)
+   - [Overall criteria pass rate] = AVG pass rates of all 3 criteria
 
 
 
