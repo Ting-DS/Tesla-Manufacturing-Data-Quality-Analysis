@@ -27,9 +27,35 @@ Note: All parts undergo inspection in all three zones. However, different phone 
 #### 3. Specify all assumptions while answering the above two questions
 
 ## Solution
- - Data structure & Data preprocessing & Sanity Check
+#### Data structure & Data preprocessing & Sanity Check
  <div align="center">
   <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/data structure.png" width="60%">
  </div>
+ - Check total number of parts inspected for each phone group, to see if there is an imbalance.
+ - Check the distribution of number of parts that passed each criteria (A/B/C) and total number of parts inspected for different phone group
+#### Metric Design
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
