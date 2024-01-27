@@ -26,6 +26,10 @@ Note: All parts undergo inspection in all three zones. However, different phone 
 #### 2. Determine which phone group has the highest quality and provide recommendation supported by data visualization and narratives.
 #### 3. Specify all assumptions while answering the above two questions
 
-
+## Solution
+ - data structure & data preprocessing
+ <div align="center">
+  <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/Tesla_logo.png" width="40%">
+ </div>
 
 
