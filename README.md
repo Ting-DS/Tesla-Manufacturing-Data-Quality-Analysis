@@ -27,7 +27,7 @@ Note: All parts undergo inspection in all three zones. However, different phone 
 #### 3. Specify all assumptions while answering the above two questions
 
 ## Solution
- - data structure & data preprocessing
+ - Data structure & Data preprocessing & Sanity Check
  <div align="center">
   <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/data structure.png" width="60%">
  </div>
