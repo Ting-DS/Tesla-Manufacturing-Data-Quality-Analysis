@@ -82,6 +82,9 @@ Comparably, the classification phone group E has a slightly higher quality, beca
  - Based on the 95% confidence interval, the pass rates for all classifications are similar in range, indicating **comparable variability**.
  - Using the `classification` and `TotalPartsInspected` to regress on different metrics, the summary table align on the same conclusion: while other conditions are the same, the classification E has a relatively higher performance than other classes (the classification E has highest positive coefficients value and T-statistics in criteria A, B and overall metrics modeling)
 
+## Acknowledgement
+
+Thanks to [Tesla](https://www.tesla.com) for providing this data analysis challenge dataset and questions, which allows to define, analyze and evaluate metrics from different perspectives, broadening the vision of data analysis and statistical modeling.
 
 
 
