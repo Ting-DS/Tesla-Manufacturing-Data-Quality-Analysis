@@ -47,21 +47,21 @@ For each phone group (A/B/C/D/E) seperately:
    - [Overall criteria pass ratios] = AVG pass rates of all 3 criteria
 
  <div align="center">
-  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/mean.png" width="60%">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/mean.png" width="90%">
  </div>
 
 The one-way ANOVA test shows that there is no significant difference of each metric among different phone groups.
 
 #### Metric Distribution
  <div align="center">
-  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/distribution.png" width="60%">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/distribution.png" width="90%">
  </div>
 The distribution of each metric is approximately normal distribution, except for criteria B pass ratio is a little left-skewed.
 
 Therefore, we can estomates 95% confidence interval of the distribution of pass ratio of three criteria and overall criteria, to evaluate the variability of each metric.
 
  <div align="center">
-  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/overall%20ratio.png" width="60%">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/overall%20ratio.png" width="40%">
  </div>
 
 
