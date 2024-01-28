@@ -26,8 +26,8 @@ Note: All parts undergo inspection in all three zones. However, different phone 
 #### 2. Determine which phone group has the highest quality and provide recommendation supported by data visualization and narratives.
 #### 3. Specify all assumptions while answering the above two questions
 
-## Solution
-#### Data structure & Data preprocessing & Sanity Check
+## Analysis
+#### 1. Data structure & Data preprocessing & Sanity Check
  <div align="center">
   <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/data structure.png" width="60%">
  </div>
@@ -36,7 +36,7 @@ Note: All parts undergo inspection in all three zones. However, different phone 
  - Check total number of parts inspected, to see if there is an imbalance: 
  - Check the distribution of number of parts that passed each criteria (A/B/C) and total number of parts inspected
 
-#### Metric Design & ANOVA test
+#### 2. Metric Design & ANOVA test
 
 Since total number of parts inspected is similar among different phone groups, therefore we can use the pass ratio/proportion to compare different phone groups, making it easier to identify patterns or differences.
 
@@ -52,7 +52,7 @@ For each phone group (A/B/C/D/E) seperately:
 
 The one-way ANOVA test shows that there is no significant difference of each metric among different phone groups.
 
-#### Metric Distribution
+#### 3. Metric Distribution
  <div align="center">
   <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/distribution.png" width="90%">
  </div>
