@@ -64,11 +64,15 @@ Therefore, we can estomates 95% confidence interval of the distribution of pass 
   <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/overall%20ratio.png" width="40%">
  </div>
 
+#### 4. Modeling (OLS linear regression)
 
+Create four OLS linear regression models with the same independent variables: a categorical variable (phone group) and the total number of inspected parts. The outcomes should be 'criteriaA_pass_through_rate', 'criteriaB_pass_through_rate', 'criteriaC_pass_through_rate', and 'criteria_overall_pass_through_rate' respectively.
 
+Observe the contribution and significance of different phone groups to four outcomes.
 
-
-
+ <div align="center">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/OLS.png" width="50%">
+ </div>
 
 
 
