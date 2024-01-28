@@ -43,16 +43,26 @@ Since total number of parts inspected is similar among different phone groups, t
 Since all parts undergo inspection in all three criteria, which means the part that undergo all three criteria are the same. Therefore, there is no bias towards specific criteria when we calculate the overall pass ratio by averaging the 3 pass ratios of each criterion.
 
 For each phone group (A/B/C/D/E) seperately:
-   - [AVG pass ratios of each criteria] = (# of passed parts of each criteria) / (total # of parts inspected) : 3 ratios for each criteria (A/B/C)
+   - [Average pass ratios of each criteria] = (# of passed parts of each criteria) / (total # of parts inspected) : 3 ratios for each criteria (A/B/C)
    - [Overall criteria pass ratios] = AVG pass rates of all 3 criteria
+
+ <div align="center">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/mean.png" width="60%">
+ </div>
 
 The one-way ANOVA test shows that there is no significant difference of each metric among different phone groups.
 
+#### Metric Distribution
+ <div align="center">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/distribution.png" width="60%">
+ </div>
+The distribution of each metric is approximately normal distribution, except for criteria B pass ratio is a little left-skewed.
 
+Therefore, we can estomates 95% confidence interval of the distribution of pass ratio of three criteria and overall criteria, to evaluate the variability of each metric.
 
-
-
-
+ <div align="center">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/overall%20ratio.png" width="60%">
+ </div>
 
 
 
