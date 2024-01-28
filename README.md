@@ -29,7 +29,7 @@ Note: All parts undergo inspection in all three zones. However, different phone 
 ## Analysis
 #### 1. Data structure & Data preprocessing & Sanity Check
  <div align="center">
-  <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/data structure.png" width="60%">
+  <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/png/data structure.png" width="60%">
  </div>
  
  For each phone group (A/B/C/D/E) seperately:
@@ -47,14 +47,14 @@ For each phone group (A/B/C/D/E) seperately:
    - [Overall criteria pass ratios] = AVG pass rates of all 3 criteria
 
  <div align="center">
-  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/mean.png" width="90%">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/png/mean.png" width="90%">
  </div>
 
 The one-way ANOVA test shows that there is no significant difference of each metric among different phone groups.
 
 #### 3. Metric Distribution
  <div align="center">
-  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/distribution.png" width="90%">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/png/distribution.png" width="90%">
  </div>
 The distribution of each metric is approximately normal distribution, except for criteria B pass ratio is a little left-skewed.
 
@@ -62,7 +62,7 @@ Therefore, we can estomates 95% confidence interval of the distribution of pass 
 The following displays the results of overall pass ratios.
 
  <div align="center">
-  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/overall%20ratio.png" width="40%">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/png/overall%20ratio.png" width="40%">
  </div>
 
 #### 4. Modeling (OLS linear regression)
@@ -72,7 +72,7 @@ Create four OLS linear regression models with the same independent variables: a 
 Observe the contribution and significance of different phone groups to four outcomes. The following displays the results of overall pass ratios.
 
  <div align="center">
-  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/OLS.png" width="50%">
+  <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/png/OLS.png" width="50%">
  </div>
 
 ## Conclusion
