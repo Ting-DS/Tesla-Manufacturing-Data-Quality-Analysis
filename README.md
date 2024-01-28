@@ -59,6 +59,7 @@ The one-way ANOVA test shows that there is no significant difference of each met
 The distribution of each metric is approximately normal distribution, except for criteria B pass ratio is a little left-skewed.
 
 Therefore, we can estomates 95% confidence interval of the distribution of pass ratio of three criteria and overall criteria, to evaluate the variability of each metric.
+The following displays the results of overall pass ratios.
 
  <div align="center">
   <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/overall%20ratio.png" width="40%">
@@ -68,12 +69,18 @@ Therefore, we can estomates 95% confidence interval of the distribution of pass 
 
 Create four OLS linear regression models with the same independent variables: a categorical variable (phone group) and the total number of inspected parts. The outcomes should be 'criteriaA_pass_through_rate', 'criteriaB_pass_through_rate', 'criteriaC_pass_through_rate', and 'criteria_overall_pass_through_rate' respectively.
 
-Observe the contribution and significance of different phone groups to four outcomes.
+Observe the contribution and significance of different phone groups to four outcomes. The following displays the results of overall pass ratios.
 
  <div align="center">
   <img src="https://github.com/Ting-DS/Tesla-Phone-Quality-Evaluation-Decision-Making/blob/main/OLS.png" width="50%">
  </div>
 
+## Conclusion
+
+Comparably, the classification phone group E has a slightly higher quality, because The ANOVA test shows that there is no significant difference of each metric among different phone groups:
+ - The classification E has a relatively higher **average** pass rate for criteria A, B and overall, only a slightly lower pass rate than other classes using criteria C.
+ - Based on the 95% confidence interval, the pass rates for all classifications are similar in range, indicating **comparable variability**.
+ - Using the `classification` and `TotalPartsInspected` to regress on different metrics, the summary table align on the same conclusion: while other conditions are the same, the classification E has a relatively higher performance than other classes (the classification E has highest positive coefficients value and T-statistics in criteria A, B and overall metrics modeling)
 
 
 
