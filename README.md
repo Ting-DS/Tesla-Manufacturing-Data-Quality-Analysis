@@ -1,7 +1,7 @@
 # Tesla Phone Quality and Reliability Evaluation
 
 <div align="center">
-  <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/Tesla_logo.png" width="20%">
+  <img src="https://github.com/Ting-DS/Cell-Quality-Metric-Design/blob/main/png/Tesla_logo.png" width="20%">
 </div>
 
 ## Background 
